@@ -47,7 +47,7 @@ QUERY (per request)
 Two parallel pipelines write into two Chroma collections that share a persist directory but stay logically separate.
 
 ### Pipeline A — Meal Plans index
-1. **File** (`Local` storage) — loads the sample meal plan PDFs (e.g. `Arpita 4th May.pdf`, `Arpita 16th March.pdf`, `Arpita US – 20 Apr.pdf`, `Arpita US 18th May.pdf`).
+1. **File** (`Local` storage) — loads the sample meal plan PDFs.
 2. **Split Text** — chunk size `1000`, chunk overlap `200`.
 3. **Embedding Model** — `text-embedding-3-small`.
 4. **Chroma DB** — collection `MealPlan`, ingests chunks + embeddings.
