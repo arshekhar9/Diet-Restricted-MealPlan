@@ -1,4 +1,4 @@
-# Restrictive Meal Planner — Agentic RAG (Langflow)
+# Diet Restriction Meal Planner — Agentic RAG (Langflow)
 
 A retrieval-augmented meal planning assistant built in [Langflow](https://www.langflow.org/). Given a simple request like *"Prepare a meal plan"*, it generates a full 7-day plan that (a) mirrors the style and structure of previously approved meal plans and (b) respects a separate, authoritative list of dietary restrictions.
 
